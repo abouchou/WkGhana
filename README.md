@@ -1,0 +1,2 @@
+# WkGhana
+Workshop intermediate 
