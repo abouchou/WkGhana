@@ -1,5 +1,4 @@
-`# WkGhana
-Workshop intermediate 
+# Workshop intermediate 
 test is this me .......
 
 
