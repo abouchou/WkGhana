@@ -649,34 +649,7 @@ The following images represent the generated plots:
 
 This part describes the directory structure for the RVFV data management project.
 
-├── data
-│   ├── newcomplete.tsv
-│   ├── newcompleteL.tsv
-│   └── rvf_africa.tsv
-├── directory_structure.txt
-├── genomes_complet
-│   ├── DQ375395.gb
-│   ├── DQ375396.gb
-│   ├── DQ375397.gb
-│   ├── ....
-├── images
-│   ├── barplot_isolates_by_country.png
-│   ├── barplot_isolates_by_year.png
-│   ├── boxplot_date_by_country.png
-│   └── boxplot_year_by_segment.png
-├── L_fasta
-│   ├── DQ375395.fasta
-│   ├── DQ375396.fasta
-│   ├── .....
-├── README.md
-├── rvfv_env.yml
-└── Scripts
-    ├── .DS_Store
-    ├── download_genbank_records.py
-    ├── extract_genbank_metadata.py
-    ├── get_GenBank_genomes.py
-    ├── newcomplete.sh
-    └── newcompleteL.sh
+  ![Boxplot of Collection Dates by Country](images/repertory.png)
 
 
 ## `data` Directory
