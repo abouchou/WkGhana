@@ -1,0 +1,62 @@
+LOCUS       GU372973                 738 bp    mRNA    linear   VRL 06-JUL-2010
+DEFINITION  Rift Valley fever virus strain ZH-501 nucleocapsid protein (N) mRNA,
+            complete cds.
+ACCESSION   GU372973
+VERSION     GU372973.1
+KEYWORDS    .
+SOURCE      Rift Valley fever virus
+  ORGANISM  Rift Valley fever virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Ellioviricetes; Bunyavirales; Phenuiviridae;
+            Phlebovirus; Phlebovirus riftense.
+REFERENCE   1  (bases 1 to 738)
+  AUTHORS   Raymond,D.D., Piper,M.E., Gerrard,S.R. and Smith,J.L.
+  TITLE     Structure of the Rift Valley fever virus nucleocapsid protein
+            reveals another architecture for RNA encapsidation
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 107 (26), 11769-11774 (2010)
+   PUBMED   20547879
+REFERENCE   2  (bases 1 to 738)
+  AUTHORS   Gerrard,S.R. and Piper,M.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-DEC-2009) Epidemiology, University of Michigan, 109 S.
+            Observatory, Ann Arbor, MI 48109, USA
+FEATURES             Location/Qualifiers
+     source          1..738
+                     /organism="Rift Valley fever virus"
+                     /mol_type="mRNA"
+                     /strain="ZH-501"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:11588"
+                     /geo_loc_name="Egypt"
+                     /collection_date="1977"
+                     /PCR_primers="fwd_name: RVFV-N5, fwd_seq:
+                     aagcttatggacaactatcaagagc, rev_name: RVFV-N3, rev_seq:
+                     ctcgagttaggctgctgtcttgtaa"
+     gene            1..738
+                     /gene="N"
+     CDS             1..738
+                     /gene="N"
+                     /note="encapsidates genomic RNA"
+                     /codon_start=1
+                     /product="nucleocapsid protein"
+                     /protein_id="ADC42124.1"
+                     /translation="MDNYQELAIQFAAQAVDRNEIEQWVREFAYQGFDARRVIELLKQY
+                     GGADWEKDAKKMIVLALTRGNKPRRMMMKMSKEGKATVEALINKYKLKEGNPSRDELTL
+                     SRVAAALAGRTCQALVVLSEWLPVTGTTMDGLSPAYPRHMMHPSFAGMVDPSLPGDYLR
+                     AILDAHSLYLLQFSRVINPNLRGRTKEEVAATFTQPMNAAVNSNFISHEKRREFLKAFG
+                     LVDSNGKPSAAVMAAAQAYKTAA"
+ORIGIN
+        1 atggacaact atcaagagct tgcgatccag tttgctgctc aagcagtgga ccgcaatgag
+       61 attgaacagt gggtccgaga gtttgcttat caagggtttg atgcccgtag agttatcgaa
+      121 ctcttaaagc agtatggtgg ggctgactgg gagaaggatg ccaagaaaat gattgttctg
+      181 gctctaactc gtggcaacaa gcccaggagg atgatgatga aaatgtcgaa agaaggcaaa
+      241 gcaactgtgg aggctctcat caacaagtat aagctaaagg aagggaatcc ttcccgggat
+      301 gagttgactc tatcacgagt tgctgccgcc ctggctggcc ggacatgcca ggctttggtc
+      361 gtcttgagtg agtggcttcc tgtcactggg actaccatgg acggcctatc ccctgcatac
+      421 ccaaggcata tgatgcaccc cagctttgct ggcatggtgg atccttctct accaggagac
+      481 tatctaaggg caatattaga tgctcactct ctgtatctgc tgcagttctc ccgggtcatc
+      541 aacccaaacc tccgaggtag aacaaaagag gaggttgctg caacgttcac gcagccaatg
+      601 aatgcagcag tgaatagcaa ctttataagc catgagaaga ggagagaatt cttgaaagcc
+      661 tttggacttg tggattctaa tgggaagccg tcagctgctg tcatggcagc cgctcaggct
+      721 tacaagacag cagcctaa
+//

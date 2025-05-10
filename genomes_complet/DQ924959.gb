@@ -1,0 +1,60 @@
+LOCUS       DQ924959                 738 bp    cRNA    linear   VRL 14-FEB-2007
+DEFINITION  Rift Valley fever virus isolate 688/78 nucleocapsid (N) gene,
+            complete cds.
+ACCESSION   DQ924959
+VERSION     DQ924959.1
+KEYWORDS    .
+SOURCE      Rift Valley fever virus
+  ORGANISM  Rift Valley fever virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Ellioviricetes; Bunyavirales; Phenuiviridae;
+            Phlebovirus; Phlebovirus riftense.
+REFERENCE   1  (bases 1 to 738)
+  AUTHORS   Jansen van Vuren,P., Potgieter,A.C., Paweska,J.T. and van Dijk,A.A.
+  TITLE     Preparation and evaluation of a recombinant Rift Valley fever virus
+            N protein for the detection of IgG and IgM antibodies in humans and
+            animals by indirect ELISA
+  JOURNAL   J. Virol. Methods 140 (1-2), 106-114 (2007)
+   PUBMED   17174410
+REFERENCE   2  (bases 1 to 738)
+  AUTHORS   Jansen van Vuren,P., Potgieter,A.C., Paweska,J.T. and Van Dijk,A.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-AUG-2006) Special Pathogens Unit, National Institute
+            for Communicable Diseases, Modderfontein Rd. 1, Sandringham, Gauteng
+            2131, South Africa
+FEATURES             Location/Qualifiers
+     source          1..738
+                     /organism="Rift Valley fever virus"
+                     /mol_type="viral cRNA"
+                     /isolate="688/78"
+                     /db_xref="taxon:11588"
+                     /segment="S"
+                     /geo_loc_name="Zimbabwe"
+                     /collection_date="1978"
+     gene            1..738
+                     /gene="N"
+     CDS             1..738
+                     /gene="N"
+                     /codon_start=1
+                     /product="nucleocapsid"
+                     /protein_id="ABK91994.1"
+                     /translation="MDNYQELAIQFAAQAVDRNEIEQWVREFAYQGFDARRVIELLKQY
+                     GGADWEKDAKKMIVLALTRGNKPRRMMMKMSKEGKATVEALINKYKLKEGNPSRDELTL
+                     SRVAAALAGWTCQALVVLSEWLPVTGTTMDGLSPAYPRHMMHPSFAGMVDPSLPEDYLR
+                     AILDAHSLYLLQFSRVINPNLRGRTKEEVAATFTQPMNAAVNSNFISHEKRREFLKAFG
+                     LVDSNGKPSAAVMAAAQAYKTAA"
+ORIGIN
+        1 atggacaact atcaagagct tgcgatccag tttgctgctc aagcagtgga ccgcaatgag
+       61 attgaacagt gggtccgaga gtttgcttat caagggtttg atgcccgtag ggttatcgaa
+      121 ctcttaaagc agtatggtgg ggctgactgg gagaaggatg ccaagaaaat gattgtcctg
+      181 gctctgactc gtggcaacaa gccccggagg atgatgatga aaatgtcgaa agaaggtaaa
+      241 gcaactgtgg aggctctcat caacaagtat aagctaaagg aagggaatcc ttcccgggat
+      301 gagttgactc tatcacgagt tgctgccgcc ctggctggct ggacatgcca ggctttggtc
+      361 gtcttgagtg agtggcttcc tgtcactggg actaccatgg acggcctatc ccctgcatac
+      421 ccaaggcata tgatgcaccc cagctttgct ggcatggtgg acccttctct accagaagac
+      481 tatctgaggg caatattaga tgctcactct ctgtatctgc tgcagttctc ccgggtcatc
+      541 aacccaaacc tccgaggcag aacaaaggag gaggttgctg caacgttcac gcagccaatg
+      601 aatgcagcag tgaatagcaa ctttataagc catgagaaga ggagggaatt cttgaaagct
+      661 tttgggcttg tggattctaa tgggaagccg tcagctgctg tcatggcagc tgctcaggcc
+      721 tacaagacag cagcctaa
+//

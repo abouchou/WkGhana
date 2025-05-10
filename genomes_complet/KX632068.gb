@@ -1,0 +1,98 @@
+LOCUS       KX632068                1686 bp    RNA     linear   VRL 27-AUG-2016
+DEFINITION  Rift Valley fever virus isolate BJ01 segment S, complete sequence.
+ACCESSION   KX632068
+VERSION     KX632068.1
+KEYWORDS    .
+SOURCE      Rift Valley fever virus
+  ORGANISM  Rift Valley fever virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Ellioviricetes; Bunyavirales; Phenuiviridae;
+            Phlebovirus; Phlebovirus riftense.
+REFERENCE   1  (bases 1 to 1686)
+  AUTHORS   Zhang,J.W., Shi,Y.X., Zheng,K., Huang,J.C., Xu,X., Li,X.B., Dai,J.,
+            Li,S.F., Zhong,Y.Q., Li,L.Q., Lu,H.R., Ma,J.M., Li,W.S., Yu,J.Y.,
+            Hong,R.S., Lu,L.H., Ji,J.K., Peng,S.Q., Mai,G.Q., Huang,Y.T.,
+            Qiu,J.J., Li,J.D., Liu,X., Chen,Y.Y., Zhang,X.G., Zhang,J.M.,
+            Jin,X., Huang,J.H., Sun,F.J., Wang,Z. and Zhu,Z.Y.
+  TITLE     Complete genome sequence of Rift Valley Fever virus BJ01 isolate
+            from the first imported case into China
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1686)
+  AUTHORS   Zhang,J.W., Shi,Y.X., Zheng,K., Huang,J.C., Xu,X., Li,X.B., Dai,J.,
+            Li,S.F., Zhong,Y.Q., Li,L.Q., Lu,H.R., Ma,J.M., Li,W.S., Yu,J.Y.,
+            Hong,R.S., Lu,L.H., Ji,J.K., Peng,S.Q., Mai,G.Q., Huang,Y.T.,
+            Qiu,J.J., Li,J.D., Liu,X., Chen,Y.Y., Zhang,X.G., Zhang,J.M.,
+            Jin,X., Huang,J.H., Sun,F.J., Wang,Z. and Zhu,Z.Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JUL-2016) Inspection and Quarantine Technology Centre,
+            Guangdong Entry-Exit Inspection and Quarantine Bureau, General
+            Administration of Quality Supevision, Inspection and Quarantine of
+            the People's Republic of China, No. 8, Madian Road, Haidian
+            District, Beijing 100088, China
+COMMENT     ##Assembly-Data-START##
+            Assembly Method :: In-house reference based viral genome assembly
+            program v. 77X
+            Sequencing Technology :: BGI seq500
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1686
+                     /organism="Rift Valley fever virus"
+                     /mol_type="genomic RNA"
+                     /isolate="BJ01"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:11588"
+                     /segment="S"
+                     /geo_loc_name="Angola"
+                     /collection_date="22-Jul-2016"
+     CDS             38..775
+                     /note="N"
+                     /codon_start=1
+                     /product="nucleocapsid protein"
+                     /protein_id="AOE46761.1"
+                     /translation="MDNYQELAIQFAAQAVDRNEIEQWVREFAYQGFDARRVIELLKQY
+                     GGADWEKDAKKMIVLALTRGNKPRRMMMKMSKEGKATVEALINKYKLKEGNPSRDELTL
+                     SRVAAALAGWTCQALVVLSEWLPVTGTTMDGLSPAYPRHMMHPSFAGMVDPSLPEDYLR
+                     AILDAHSLYLLQFSRVINPNLRGRTKEEVAATFTQPMNAAVNSNFISHEKRREFLKAFG
+                     LVDSNGKPSAAVMAAAQAYKTAA"
+     CDS             complement(859..1656)
+                     /note="NSs protein"
+                     /codon_start=1
+                     /product="non-structural protein"
+                     /protein_id="AOE46762.1"
+                     /translation="MDYFPVISVDLQSGRRVVSVEYIRGDGPPRIPYSMVGPCCVFLMH
+                     HRPSHEVRLRFSDFYNVGEFPYRVGLGDFASNVAPPPAKPFQRLIDLIGHMTLSDFTRF
+                     PNLKEAISWPLGEPSLAFFDLSSTRVHRNDDIRRDQIATLAMRSCKITNDLEDSFVGLH
+                     RMIVTEAILRGIDLCLLPGFDLMYEVAHVQCVRLLQAAKEDISNAVVPNSALIALMEES
+                     LMLRSSLPSMMGRNNWIPVVPPIPDVEMESEEESDDDGFVEVD"
+ORIGIN
+        1 cacaaagctc cctagagata caaacactat tacaataatg gacaactatc aagagcttgc
+       61 gatccagttt gctgctcaag cagtggaccg caatgagatt gaacagtggg tccgagagtt
+      121 tgcttatcaa ggatttgatg cccgtagggt tatcgaactc ttgaagcagt atggtggggc
+      181 cgactgggag aaggatgcca agaaaatgat tgttctggct ctaactcgtg gcaacaagcc
+      241 ccggaggatg atgatgaaaa tgtcaaaaga gggcaaggct actgtggagg ctctcatcaa
+      301 caagtacaag ctgaaggagg ggaatccctc ccgggatgag ttgactctat cacgagtcgc
+      361 tgccgccctg gctggctgga catgccaggc cttggtcgtc ttaagtgagt ggcttcctgt
+      421 cactgggacc accatggatg gcctatcccc tgcataccca aggcatatga tgcaccccag
+      481 ctttgctggc atggtggacc cttctctgcc agaagactat ctaagggcga tattggatgc
+      541 tcactctctg tatctgctgc agttctctcg ggtcatcaac ccaaacctcc gaggtagaac
+      601 aaaggaggaa gttgctgcaa cgttcacgca gccaatgaat gcagcagtga atagcaactt
+      661 tataagccat gagaagagga gagaattcct gaaagctttt gggcttgtgg attctaatgg
+      721 gaagccgtca gcggctgtca tggcagctgc tcaggcgtac aagacagcag cctaagtggc
+      781 tgcccagggg tttgggggaa aggggtggtt ggggttacgg tcgggattag ggggtggggg
+      841 gtggggcagc cttaacctct agtcaacctc aacaaatcca tcatcatcac tctcctcctc
+      901 tgattccatc tcaacatctg ggattggagg aacaactgga atccagttgt ttctccccat
+      961 catgctagga agtgatgagc gcagcatcag gctctcctcc ataagagcaa tgagggctga
+     1021 gtttggaact acagcattag aaatgtcctc ttttgctgcc tgcagaagcc gaacacactg
+     1081 gacgtgagca acctcataca tgaggtcaaa gcctggcaac aggcacagat caatccctct
+     1141 gagaatagcc tcagtcacta tcatcctgtg taagccaaca aaggagtctt ccagatcatt
+     1201 ggtaatcttg cagctcctca ttgctagagt ggcaatctga tcccttctaa tgtcatcatt
+     1261 cctgtgcact ctagtagagc ttaggtcaaa gaaggccagg gagggttctc caagaggcca
+     1321 ggatatggct tctttcagat tggggaatct tgtgaaatca ctaagagtca tatggcctat
+     1381 tagatcaata agtctctgaa aaggctttgc tggtggaggt gcaacgtttg atgcaaagtc
+     1441 tccaagtccg actcggtacg ggaattctcc gacattgtag aaatcagaaa atcgcaagcg
+     1501 aacctcgtga ctaggacgat ggtgcatgag aaagacacaa cagggcccaa ccatagaata
+     1561 aggtatcctg ggaggaccat cacctctaat gtactccact gacacaacac gacgaccact
+     1621 ctgcaaatca acagatatca caggaaagta atccatgata tacttgataa gcactagggg
+     1681 gtcttt
+//

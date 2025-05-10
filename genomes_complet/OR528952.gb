@@ -1,0 +1,94 @@
+LOCUS       OR528952                1681 bp    RNA     linear   VRL 26-FEB-2024
+DEFINITION  Rift Valley fever virus strain 2019/Sample-120 segment S, complete
+            sequence.
+ACCESSION   OR528952
+VERSION     OR528952.1
+KEYWORDS    .
+SOURCE      Rift Valley fever virus
+  ORGANISM  Rift Valley fever virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Ellioviricetes; Bunyavirales; Phenuiviridae;
+            Phlebovirus; Phlebovirus riftense.
+REFERENCE   1  (bases 1 to 1681)
+  AUTHORS   Becquart,P., Kombila,L., Mebaley,T.N., Paupy,C., Garcia,D., Nesi,N.,
+            Vanhomwegen,J., Mombo,I.M., Piro-Megy,C., Fritz,M., Lenguiya,L.H.,
+            Leroy,E.M., N'Dilimabaka,N., Maganga,G.D. and Cetre-Sossah,C.
+  TITLE     Evidence for circulation of Rift Valley fever virus in wildlife and
+            domestic animals in a forest environment in central Africa, Gabon
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1681)
+  AUTHORS   Becquart,P., Kombila,L., Mebaley,T.N., Paupy,C., Garcia,D., Nesi,N.,
+            Vanhomwegen,J., Mombo,I.M., Piro-Megy,C., Fritz,M., Lenguiya,L.H.,
+            Leroy,E.M., N'Dilimabaka,N., Maganga,G.D. and Cetre-Sossah,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-SEP-2023) BIOS, CIRAD, Campus International de
+            Baillarguet, Montpellier 34398, France
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1681
+                     /organism="Rift Valley fever virus"
+                     /mol_type="genomic RNA"
+                     /strain="2019/Sample-120"
+                     /isolation_source="liver/spleen"
+                     /host="Philantomba monticola"
+                     /db_xref="taxon:11588"
+                     /segment="S"
+                     /geo_loc_name="Gabon: Zoula"
+                     /collection_date="02-Jul-2019"
+     gene            35..832
+                     /gene="NS"
+     CDS             35..832
+                     /gene="NS"
+                     /codon_start=1
+                     /product="nonstructural protein"
+                     /protein_id="WOK70109.1"
+                     /translation="MDYFPVISVDLQSGRRVVSVEYIRGDGPPRIPYSMVGPCCVFLMH
+                     HRPSHEVRLRFSDFYNVGEFPYRVGLGDFASNVAPPPAKPFQRLIDLIGHMTLSDFTRF
+                     PNLKEAISWPLGEPSLAFFDLSSTRVHRNDDIRRDQIATLAMRSCKITNDLEDSFVGLH
+                     RMIVTEAILRGIDLCLLPGFDLMYEVAHVQCVRLLQAAKEDISNAVVPNSALIALMEES
+                     LMLRSSLPSIMGRSNWIPVVPPIPDVEMESEEESDDDGFVEVD"
+     gene            complement(916..1653)
+                     /gene="NP"
+     CDS             complement(916..1653)
+                     /gene="NP"
+                     /codon_start=1
+                     /product="nucleoprotein"
+                     /protein_id="WOK70110.1"
+                     /translation="MDNYQELAIQFAAQAVDRNEIEQWVREFAYQGFDARRVIELLKQY
+                     GGADWEKDAKKMIVLALTRGNKPRRMMMKMSKEGKATVEALINKYKLKEGNPSRDELTL
+                     SRVAAALAGWTCQALVVLSEWLPVTGTTMDGLSPAYPRHMMHPSFAGMVDPSLPEDYLR
+                     AILDAHSLYLLQFSRVINPNLRGRTKEEVAATFTQPMNAAVNSNFISHEKRREFLKAFG
+                     LVDSNGKPSAAVMAAAQAYKTAA"
+ORIGIN
+        1 acacaaagac cccctagtgc ttatcaagta tatcatggat tactttcctg tgatatctgt
+       61 tgatttgcag agtggtcgtc gtgttgtgtc agtggagtac attagaggag atggtcctcc
+      121 caggatacct tattctatgg ttgggccctg ttgtgtcttt ctcatgcacc atcgtcctag
+      181 tcacgaggtt cgcttgcgat tctctgattt ctataatgtc ggagaattcc cataccgagt
+      241 cggacttgga gactttgcat caaacgttgc acctccacca gcaaagcctt ttcagagact
+      301 tattgatctg ataggccata tgactcttag tgatttcaca aggttcccta atctgaaaga
+      361 agccatatcc tggcctcttg gagaaccctc actggctttc tttgatctaa gctctactag
+      421 agtacacagg aatgatgaca tcaggaggga tcagattgcc actctagcaa tgaggagctg
+      481 caagatcacc aatgatctag aggactcctt tgttggctta cacaggatga tagtgactga
+      541 ggccatcctc agaggaattg acctgtgcct gttgccaggc tttgatctca tgtatgaggt
+      601 tgctcatgta cagtgtgtta ggctcctgca agcagcaaaa gaggacattt ctaatgctgt
+      661 agttccaaac tcagccctca ttgctcttat ggaggagagc ctgatgctgc gctcatcact
+      721 tcctagcata atggggagaa gcaactggat tccagttgtt cctccaatcc cagatgttga
+      781 gatggaatca gaggaagaga gtgatgatga tgggtttgtt gaggttgatt agaggttaag
+      841 gctgccccac ccccaccccc caatcccaac cgtaacccca actccccctt tcccccaacc
+      901 cccctaggca gccacttagg ctgctgtctt gtaagcctgg gcagctgcca tgacagcagc
+      961 tgacggcttc ccattagaat ctacaagccc aaaagctttc aagaattctc tcctcttctc
+     1021 atggctaata aagttgctat tcactgctgc attcattggc tgtgtgaacg ttgcagcaac
+     1081 ctcctccttt gttctacctc ggaggtttgg gttgatgacc cgggagaact gcagcagata
+     1141 cagagagtga gcatctaata ttgcccttag atagtcttct ggcagagaag ggtccaccat
+     1201 gccagcaaag ctggggtgca tcatatgcct tgggtatgca ggggataggc cgtccatggt
+     1261 agtcccagtg acaggaagcc actcactcaa gacgaccaaa gcctggcatg tccagccagc
+     1321 cagggcggca gcaactcgtg atagagtcaa ctcatcccgg gaaggattcc cttcctttag
+     1381 cttatacttg ttgatgagag cctccacagt tgctttgcct tctttcgaca ttttcatcat
+     1441 catcctccgg ggcttgttgc cacgagttag agccagaaca atcattttct tggcatcctt
+     1501 ctcccagtca gccccaccat actgctttaa gagttcaata actctacggg catcaaaccc
+     1561 ttgataagca aactctcgga cccactgttc aatctcattg cggtccactg cttgagcagc
+     1621 aaactggatc gcaagctctt gatagttgtc cattattgta atagtgtttg tatctctagg
+     1681 g
+//

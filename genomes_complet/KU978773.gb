@@ -1,0 +1,103 @@
+LOCUS       KU978773                1707 bp    RNA     linear   VRL 25-MAR-2017
+DEFINITION  Rift Valley fever virus isolate ZINGA J83 R1 segment S, complete
+            sequence.
+ACCESSION   KU978773
+VERSION     KU978773.1
+DBLINK      BioProject: PRJNA257008
+            BioSample: SAMN04017540
+KEYWORDS    .
+SOURCE      Rift Valley fever virus
+  ORGANISM  Rift Valley fever virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Ellioviricetes; Bunyavirales; Phenuiviridae;
+            Phlebovirus; Phlebovirus riftense.
+REFERENCE   1  (bases 1 to 1707)
+  AUTHORS   Rossi,S.L., Forrester,N.L., Ksiazek,T., Guerbois,M., Lin,D., Hari,K.
+            and Weaver,S.C.
+  CONSRTM   Consortium for Microbial Forensics and Genomics (microFORGE)
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2016) Microbiology and Immunology, University of
+            Texas Medical Branch, 301 University Boulevard, Galveston, TX 77555,
+            USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method :: Trimmomatic v. 0.32; SGA v. 0.10.13; iMetAMOS v.
+            1.5; samtools v1.1; FastQC v. 0.10.0; Spades v. 3.1.1; idba v1.1.1;
+            Pilon v. 1.8; Quast v. 2.2; Prokka v. 1.7
+            Assembly Name         :: RVFV001-SEQ-1-ASM-1
+            Genome Coverage       :: 7622.03x
+            Sequencing Technology :: illumina HiSeq1500
+            ##Genome-Assembly-Data-END##
+            GenBank Accession Numbers KU978773, KU978776, KU978779 represent
+            sequences from the 3 segments of Rift Valley fever virus ZINGA J83
+            R1.
+            nan.
+FEATURES             Location/Qualifiers
+     source          1..1707
+                     /organism="Rift Valley fever virus"
+                     /mol_type="genomic RNA"
+                     /isolate="ZINGA J83 R1"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:11588"
+                     /segment="S"
+                     /geo_loc_name="Central African Republic"
+                     /collection_date="01-Jan-1969"
+     gene            47..844
+                     /locus_tag="AM555_00003"
+     CDS             47..844
+                     /locus_tag="AM555_00003"
+                     /inference="ab initio prediction:Prodigal:2.60"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="AMZ00432.1"
+                     /translation="MDYFPVISVDLQSGRRVVSVEYIRGDGPPRIPYSMVGPCCVFLMH
+                     HRPSHEVRLRFSDFYNVGEFPYRVGLGDFASNVAPPPAKPFQRLIDLIGHMTLSDFTRF
+                     PNLKEAISWPLGEPSLAFFDLSSTRVHRNDDIRRDQIATLAMRSCKITNDLEDSFVGLH
+                     RMIVTEAILRGIDLCLLPGFDLMYEVAHVQCVRLLQAAKEDISNAVVPNSGLIALMEES
+                     LMLRSSLPSMMGRNNWIPVVPPIPDVEMESEEESDDDGFVEVD"
+     gene            complement(927..1664)
+                     /gene="N"
+                     /locus_tag="AM555_00004"
+     CDS             complement(927..1664)
+                     /gene="N"
+                     /locus_tag="AM555_00004"
+                     /inference="ab initio prediction:Prodigal:2.60"
+                     /inference="similar to AA sequence:UniProtKB:P21700"
+                     /codon_start=1
+                     /product="nucleocapsid protein"
+                     /protein_id="AMZ00433.1"
+                     /translation="MDNYQELAIQFAAQAVDRNEIEQWVREFAYQGFDARRVIELLKQY
+                     GGADWEKDAKKMIVLALTRGNKPRRMMMKMSKEGKATVEALINKYKLKEGNPSRDELTL
+                     SRVAAALAGWTCQALVVLSEWLPVTGTTMDGLSPAYPRHMMHPSFAGMVDPSLPEDYLR
+                     AILDAHSLYLLQFSRVINPNLRGRTKEEVAATFTQPMNAAVNSNFISHEKRREFLKAFG
+                     LVDSNGKPSAAVMAAAQAYKTAA"
+ORIGIN
+        1 acacacacac acacacaaag accccctagt gcttatcaag tatatcatgg attactttcc
+       61 tgtgatatct gttgatttgc agagtggtcg tcgtgttgtg tcagtggagt acattagagg
+      121 tgatggtcct cccaggatac cttattctat ggttgggccc tgttgtgtct ttctcatgca
+      181 ccatcgtcct agtcacgagg ttcgcttgcg attctctgat ttctacaatg tcggagaatt
+      241 cccataccga gtcggacttg gagactttgc atcaaacgtt gcacctccac cagcaaagcc
+      301 ttttcagaga cttattgatc taataggcca tatgactctt agtgatttca caaggttccc
+      361 caatctgaaa gaagccatat cctggcctct tggagaaccc tcattggctt tctttgatct
+      421 tagctctact agagtgcaca ggaatgatga tattagaagg gatcagattg ccactctagc
+      481 aatgaggagc tgcaagatta ccaatgatct agaggactcc tttgttggct tacacaggat
+      541 gatagtgacc gaggctatcc tcagagggat tgacctgtgc ctgttgccag gctttgacct
+      601 catgtatgag gttgctcacg tacagtgtgt tcggctcctg caggcagcaa aagaggacat
+      661 ttctaatgct gtagttccaa actctggcct cattgctctt atggaggaga gcctgatgct
+      721 gcgctcatca cttcctagca tgatggggag aaacaactgg attccagttg ttcctccaat
+      781 cccagatgtt gagatggaat cagaggaaga gagtgatgat gatggatttg ttgaagttga
+      841 ttagaggtta aggctgcccc accccccacc ccccaatccc gaccgtaacc ccaaccccct
+      901 tttcccccaa ccccctgggc agccacttag gctgctgtct tgtaagcctg agcagctgcc
+      961 atgacagcag ctgatggctt cccattagaa tccacaagcc caaaagcttt taagaattct
+     1021 ctcctcttct catggcttat aaagttgcta ttcactgctg cattcattgg ctgcgtgaac
+     1081 gttgcagcaa cctcctcctt tgttctgcct cggaggtttg ggttgatgac ccgggagaac
+     1141 tgcagcagat acagagagtg agcatctaat attgccctta gatagtcttc tggtagagaa
+     1201 gggtccacca tgccagcaaa gctggggtgc atcatatgcc ttgggtatgc aggggatagg
+     1261 ccgtccatgg tagtcccagt gacaggaagc cactcactca agacgaccaa agcctggcat
+     1321 gtccagccag ccagggcggc agcaactcgt gatagagtca actcatcccg agaaggattc
+     1381 ccttccttta gcttatactt gttgatgaga gcctccacag ttgctttgcc ttcttttgac
+     1441 attttcatca tcatcctccg gggcttgttg ccacgagtta gagccagaac aatcattttc
+     1501 ttggcatcct tctcccagtc agccccacca tactgcttta agagttcgat aaccctgcgg
+     1561 gcatcaaacc cttgataagc aaactctcgg acccactgtt caatctcatt gcggtccact
+     1621 gcttgagcag caaactggat cgcaagctct tgatagttgt ccattattgt aatagtgttt
+     1681 gtatctctag ggagctttgt gtgtgtg
+//

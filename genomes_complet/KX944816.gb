@@ -1,0 +1,88 @@
+LOCUS       KX944816                1676 bp    RNA     linear   VRL 25-OCT-2018
+DEFINITION  Rift Valley fever virus isolate M33/10 nonstructural protein and
+            nucleocapsid protein genes, complete cds.
+ACCESSION   KX944816
+VERSION     KX944816.1
+KEYWORDS    .
+SOURCE      Rift Valley fever virus
+  ORGANISM  Rift Valley fever virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Ellioviricetes; Bunyavirales; Phenuiviridae;
+            Phlebovirus; Phlebovirus riftense.
+REFERENCE   1  (bases 1 to 1676)
+  AUTHORS   Maluleke,M.R., Phosiwa,M., Lubisi,B.A., van Schalkwyk,A.,
+            Michuki,G., Kegakilwe,P.S., Kemp,S.J. and Majiwa,P.A.O.
+  TITLE     A comparative genome analysis of Rift Valley Fever virus isolates
+            from foci of outbreak of the disease in South Africa in 2008 - 2010
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1676)
+  AUTHORS   Maluleke,M.R., Phosiwa,M., Lubisi,B.A., van Schalkwyk,A.,
+            Michuki,G., Kegakilwe,P.S., Kemp,S.J. and Majiwa,P.A.O.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-OCT-2016) Molecular Epidemiology and Diagnostic,
+            Agricultural Research Council - Onderstepoort Veterinary Institute,
+            100 Old Soutpan Road, Pretoria, Gauteng 0110, South Africa
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Roche/454 Newbler v. Software Release 2.8
+            Sequencing Technology :: 454
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1676
+                     /organism="Rift Valley fever virus"
+                     /mol_type="genomic RNA"
+                     /isolate="M33/10"
+                     /host="ovine"
+                     /db_xref="taxon:11588"
+                     /segment="S"
+                     /geo_loc_name="South Africa"
+                     /collection_date="2010"
+     CDS             22..819
+                     /note="NSs"
+                     /codon_start=1
+                     /product="nonstructural protein"
+                     /protein_id="ATP66917.1"
+                     /translation="MDYFPVISVDLQSGRRVVSVEYIRGDGPPRIPYSMVGPCCVFLMH
+                     HRPSHEVRLRFSDFYNVGEFPYRVGLGDFASNVAPPPAKPFQRLIDLIGHMTLSDFTRF
+                     PNLKEAISWPLGEPSLAFFDLSSTRVHRNDDIRRDQIATLAMRSCKITNDLEDSFVGLH
+                     RMIVTEAILRGIDLCLLPGFDLMYEVAHVQCVRLLQAAKEDISNAVVPNSALIALMEES
+                     LMLRSSLPSMMGRNNWIPVVPPIPDVEMDSEEESDDDGFVEVD"
+     CDS             complement(901..1638)
+                     /note="NP"
+                     /codon_start=1
+                     /product="nucleocapsid protein"
+                     /protein_id="ATP66918.1"
+                     /translation="MDNYQELAIQFAAQAVDRNEIEQWVREFAYQGFDARRVIELLKQY
+                     GGADWEKDAKKMIVLALTRGNKPRRMMMKMSKEGKATVEALINKYKLKEGNPSRDELTL
+                     SRVAAALAGWTCQALVVLSEWLPVTGTTMDGLSPAYPRHMMHPSFAGMVDPSLPEDYLR
+                     AILDAHSLYLLQFSRVINPNLRGRTKEEVAATFTQPMNAAVNSNFISHEKRREFLKAFG
+                     LVDSNGKPSAAVMAAAQAYKTAA"
+ORIGIN
+        1 ctagtgctta tcaagtatat catggattac tttcctgtga tatctgttga tttgcagagt
+       61 ggtcgtcgtg ttgtgtcagt ggagtacatt agaggagatg gtcctcccag gataccttat
+      121 tctatggttg ggccctgttg tgtctttctc atgcaccatc gtcctagtca cgaggttcgc
+      181 ttgcgattct ctgatttcta taatgtcgga gaattcccat accgagtcgg acttggagac
+      241 tttgcatcaa acgttgcacc tccaccagca aagccttttc agagacttat tgatctgata
+      301 ggccatatga ctcttagtga tttcacaagg ttccccaatc tgaaagaagc catatcctgg
+      361 cctcttggag aaccctcact ggctttcttt gacctaagct ctactagagt gcacaggaat
+      421 gatgacatca ggagggatca gattgccact ctagcaatga ggagctgcaa gatcaccaat
+      481 gatctagagg actcctttgt tggcttacac aggatgatag tgaccgaggc catcctcaga
+      541 gggattgacc tgtgcctgtt gccaggcttt gatctcatgt atgaggttgc tcatgtacag
+      601 tgtgttaggc tcctgcaagc agcaaaagag gacatttcta atgctgtagt tccaaactca
+      661 gccctcattg ctcttatgga ggagagcctg atgctgcgct catcacttcc tagcatgatg
+      721 gggagaaaca actggattcc agttgtccct ccaatcccag atgttgagat ggattcagag
+      781 gaagagagtg atgatgatgg gtttgttgag gttgattaga ggttaaggct gccccacccc
+      841 ccacccccga tcccgaccgt aaccccaact cccctttccc ccaaccccct gggcagccac
+      901 ttaggctgct gtcttgtaag cctgggcagc tgccatgaca gcagctgacg gcttcccatt
+      961 agaatccaca agcccaaaag ctttcaagaa ttctctcctc ttctcatggc taataaagtt
+     1021 gctattcact gctgcattca ttggctgcgt gaacgttgca gcaacctcct cctttgttct
+     1081 acctcggagg tttgggttga tgacccggga gaactgcagc agatacagag agtgagcatc
+     1141 taatattgcc cttagatagt cttctggcag agaagggtcc accatgccag caaagctagg
+     1201 gtgcatcata tgccttgggt atgcagggga taggccgtcc atggtagtcc cagtgacagg
+     1261 aagccactca ctcaagacga ctaaagcctg gcatgtccag ccagccaggg cggcagcaac
+     1321 tcgtgataga gtcaactcat cccgggaagg attcccttcc tttagcttat acttgttgat
+     1381 gagagcctcc acagttgctt tgccttcctt cgacatcttc atcatcatcc tccggggctt
+     1441 gttgccacga gttagggcca gaacaatcat tttcttggca tccttctccc agtcagcccc
+     1501 accatactgc ttcaagagtt caataactct acgggcatca aacccttgat aagcaaactc
+     1561 tcggacccac tgttcaatct cattgcggtc cactgcttga gcagcaaact ggatcgcaag
+     1621 ctcttgatag ttgtccatta ttgtaatagt gtttgtatct ctagggagct ttgtgt
+//

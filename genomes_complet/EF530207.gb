@@ -1,0 +1,55 @@
+LOCUS       EF530207                 738 bp    cRNA    linear   VRL 29-APR-2007
+DEFINITION  Rift Valley fever virus isolate OV 35/74 segment S nucleoprotein
+            gene, complete cds.
+ACCESSION   EF530207
+VERSION     EF530207.1
+KEYWORDS    .
+SOURCE      Rift Valley fever virus
+  ORGANISM  Rift Valley fever virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Ellioviricetes; Bunyavirales; Phenuiviridae;
+            Phlebovirus; Phlebovirus riftense.
+REFERENCE   1  (bases 1 to 738)
+  AUTHORS   Potgieter,A.C. Sr.
+  TITLE     A rapid immunochromatographic test to detect Rift Valley fever virus
+            antibodies in humans and livestock
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 738)
+  AUTHORS   Potgieter,A.C. Sr.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-MAR-2007) Virology, Onderstepoort Veterinary
+            Institute, 100 Old Soutpan Road, Onderstepoort, Gauteng 0110, South
+            Africa
+FEATURES             Location/Qualifiers
+     source          1..738
+                     /organism="Rift Valley fever virus"
+                     /mol_type="viral cRNA"
+                     /isolate="OV 35/74"
+                     /isolation_source="infected mouse brain"
+                     /db_xref="taxon:11588"
+                     /segment="S"
+                     /geo_loc_name="South Africa"
+     CDS             1..738
+                     /codon_start=1
+                     /product="nucleoprotein"
+                     /protein_id="ABP88854.1"
+                     /translation="MDNYQELAIQFAAQAVDRNEIEQWVREFAYQGFDARRVIELLKQY
+                     GGADWEKDAKKMIVLALTRGNKPRRMMMKMSKEGKATVEALINKYKLKEGNPSRDELTL
+                     SRVAAALAGWTCQALVVLSEWLPVTGTTMDGLSPAYPRHMMHPSFAGMVDPSLPEDYLR
+                     AILDAHSLYLLQFSRVINPNLRGRTKEEVAATFTQPMNAAVNSNFISHEKRREFLKAFG
+                     LVDSNGKPSAAVMAAAQAYKTAA"
+ORIGIN
+        1 atggacaact atcaagagct tgcgatccag tttgctgctc aagcagtgga ccgcaatgag
+       61 attgaacagt gggtccgaga gtttgcttat caaggatttg atgcccgtag ggttatcgaa
+      121 ctcttaaagc agtatggtgg ggctgactgg gagaaggatg ccaagaaaat gattgttctg
+      181 gctctgactc gtggcaacaa gccccggagg atgatgatga aaatgtcgaa agaaggcaaa
+      241 gcaactgtgg aggctctcat caacaagtat aagctaaagg aggggaatcc ttcccgggat
+      301 gagttgactc tatcacgagt tgctgctgcc ctggctggct ggacttgcca ggctttggtc
+      361 gtcttgagtg agtggcttcc tgtcactggg accaccatgg atggcctatc ccctgcatac
+      421 ccaaggcata tgatgcaccc cagctttgct ggcatggtgg acccttctct accagaagac
+      481 tatctaaggg caatattgga tgctcactct ctgtatctgc tgcagttctc ccgggtcatc
+      541 aacccaaacc tccgaggtag aacaaaggag gaggttgccg caacgttcac gcagccaatg
+      601 aatgcagcag tgaatagcaa ctttataagc catgagaaga ggagagaatt cttgaaagct
+      661 tttgggcttg tggattccaa tgggaagccg tcagcagctg tcatggcagc tgctcaggcg
+      721 tacaagacag cagcctaa
+//

@@ -1,0 +1,84 @@
+LOCUS       OP146109                1691 bp    RNA     linear   VRL 29-MAR-2023
+DEFINITION  Rift Valley fever virus strain RSA/OBP/RVFVSmithburn/LAV isolate
+            Smithburn segment S, complete sequence.
+ACCESSION   OP146109
+VERSION     OP146109.1
+DBLINK      BioProject: PRJNA756858
+            BioSample: SAMN29826207
+KEYWORDS    .
+SOURCE      Rift Valley fever virus
+  ORGANISM  Rift Valley fever virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Ellioviricetes; Bunyavirales; Phenuiviridae;
+            Phlebovirus; Phlebovirus riftense.
+REFERENCE   1  (bases 1 to 1691)
+  AUTHORS   Mlingo,T.A.M., Beeton-Kempen,N., Mokoena,N.B., Lebea,P.J. and
+            Nthangeni,M.B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2022) Research and Development: Virology,
+            Onderstepoort Biological Products Soc Ltd, 100 Old Soutpan Road,
+            Pretoria, Gauteng 0110, South Africa
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC Genenomics Workbench v. 9.5.3
+            Sequencing Technology :: IonTorrent; Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1691
+                     /organism="Rift Valley fever virus"
+                     /mol_type="genomic RNA"
+                     /strain="RSA/OBP/RVFVSmithburn/LAV"
+                     /isolate="Smithburn"
+                     /db_xref="taxon:11588"
+                     /segment="S"
+                     /geo_loc_name="Uganda"
+                     /collection_date="1944"
+                     /note="103MB 3BHK"
+     CDS             35..832
+                     /codon_start=1
+                     /product="nonstructural protein"
+                     /protein_id="WEU75158.1"
+                     /translation="MDYFPVISVDLQSGRHVVSVEYIRGDGPPRIPYSMVGPCCVFLMH
+                     HRPSHEVRLRFSDFYNVGEFPCRVGLGDFASNVAPPPAKPFQRLIDLIGHMTLSDFTRF
+                     PNLKEAISWPLGEPSLAFFDLSSTRVHRNDDIRRDQIATLAMRSCKITNDLEDSFVGLH
+                     RMIVTEAILRGIDLCLSPGFDLMYEVAHVQCVRLLQAAKEDISNAVVPNSALIALMEES
+                     LMLRSSLPSMMGRNNWIPVVPPIPDVEVESEEESDDDGFVEVD"
+     CDS             complement(916..1653)
+                     /codon_start=1
+                     /product="nucleocapsid"
+                     /protein_id="WEU75159.1"
+                     /translation="MDNYQELAIQFAAQAVDRNEIEQWVREFAYQGFDARRVIELLRQY
+                     GGADWEKDAKKMIVLALTRGNKPRRMMMKMSKEGKATVEALINKYKLKEGNPSRDELTL
+                     SRVAAALAGWTCQALVVLSEWLPVTGTTMDGLSPAYPRHMMHPSFAGMVDPSLPEDYLR
+                     AILDAHSLYLLQFSRVINPNLRGRTKEEVAATFTQPMNAAVNSNFISHEKRRGFLKAFG
+                     LVDSNGKPSAAVMAAAQAYKTAA"
+ORIGIN
+        1 acacaaagac cccctagtgc ttatcaagta tatcatggat tactttcctg tgatatctgt
+       61 tgatttgcag agtggtcgtc atgttgtgtc agtggagtac attagaggtg atggtcctcc
+      121 caggatacct tattctatgg ttgggccctg ttgtgtcttt ctcatgcacc atcgtcctag
+      181 tcacgaggtt cgcttgcgat tctctgattt ctacaatgtc ggagaattcc catgccgagt
+      241 cggacttgga gactttgcat caaacgttgc acctccacca gcaaagcctt ttcagagact
+      301 tattgatcta ataggccata tgactcttag tgatttcaca aggttcccca atctgaaaga
+      361 agccatatcc tggcctcttg gagaaccctc cctggctttc tttgacctaa gctctactag
+      421 agtgcacagg aatgatgaca ttagaaggga tcagattgcc actctagcaa tgaggagctg
+      481 caagattacc aatgatctag aagactcctt tgttggccta cacaggatga tagtgaccga
+      541 ggctattctc agagggattg acctgtgcct gtcaccaggc tttgacctca tgtatgaggt
+      601 tgctcacgtc cagtgtgttc ggctcctgca ggcagcaaaa gaggacattt ctaatgctgt
+      661 agttccaaac tcagccctca ttgctcttat ggaggagagc ctgatgctgc gctcatcact
+      721 tcctagcatg atggggagaa acaactggat tccagttgtt cctccaatcc cagatgttga
+      781 ggtggaatca gaggaagaga gtgatgatga tggatttgtt gaggttgatt agaggttaag
+      841 gctgccccac cccccacccc ccaatcccga ccgtaacccc aaccacccct ttcccccaaa
+      901 cccctgggca gccacttagg ctgctgtctt gtacgcctga gcagctgcca tgacagccgc
+      961 tgatggcttc ccattagaat ccacaagccc aaaagctttc aagaatcctc tcctcttctc
+     1021 atggcttata aagttgctat tcactgctgc attcattggc tgcgtgaatg ttgcagcaac
+     1081 ctcctccttt gttctgcctc ggaggtttgg gttgatgacc cgagagaact gcagcagata
+     1141 cagagagtga gcatccaata ttgcccttag atagtcttct ggtagagaag ggtccaccat
+     1201 gccagcaaag ctggggtgca tcatatgcct tgggtatgca ggggataggc catccatggt
+     1261 agtcccagtg acaggaagcc actcactcaa gacgaccaaa gcctggcatg tccaaccagc
+     1321 cagggcggca gcaactcgtg atagagtcaa ctcatcccgg gagggattcc cctcctttag
+     1381 cttatacttg ttgatgagag cctccacagt tgctttgcct tcttttgaca ttttcatcat
+     1441 catcctccgg ggcttgttgc cacgagttag agccagaaca atcattttct tggcatcctt
+     1501 ctcccagtca gccccaccat actgccttaa gagttcgata accctacggg catcaaatcc
+     1561 ttgataagca aactctcgga cccactgttc aatctcattg cggtccactg cttgagcagc
+     1621 aaactggatc gcaagctctt gatagttgtc cattattgta atagtgtttg tatctctagg
+     1681 gagctttgtg t
+//

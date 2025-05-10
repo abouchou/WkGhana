@@ -1,0 +1,91 @@
+LOCUS       MG659922                1690 bp    RNA     linear   VRL 13-NOV-2020
+DEFINITION  Rift Valley fever virus isolate SPU126/10 segment S, complete
+            sequence.
+ACCESSION   MG659922
+VERSION     MG659922.1
+KEYWORDS    .
+SOURCE      Rift Valley fever virus
+  ORGANISM  Rift Valley fever virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Ellioviricetes; Bunyavirales; Phenuiviridae;
+            Phlebovirus; Phlebovirus riftense.
+REFERENCE   1  (bases 1 to 1690)
+  AUTHORS   Grobbelaar,A.A., Weyer,J., Janse van Vuuren,P. and Paweska,J.T.
+  TITLE     Phylogeny of Rift Valley fever virus in South Africa: 2010-2011
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1690)
+  AUTHORS   Grobbelaar,A.A., Weyer,J., Janse van Vuuren,P. and Paweska,J.T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-DEC-2017) Centre for Emerging Zoonotic and Parasitic
+            Diseases, National Institute for Communicable Diseases, 1
+            Modderfontein Road, Sandringham, Johannesburg, Gauteng 2131, South
+            Africa
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: CLC bio workbench v. v 7.5
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1690
+                     /organism="Rift Valley fever virus"
+                     /mol_type="genomic RNA"
+                     /isolate="SPU126/10"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:11588"
+                     /segment="S"
+                     /geo_loc_name="South Africa"
+                     /collection_date="2010"
+     gene            35..832
+                     /gene="NSs"
+     CDS             35..832
+                     /gene="NSs"
+                     /codon_start=1
+                     /product="nonstructural protein"
+                     /protein_id="AYA44546.1"
+                     /translation="MDYFPVISVDLQSGRRVVSVEYIRGDGPPRIPYSMVGPCCVFLMH
+                     HRPSHEVRLRFSDFYNVGEFPYRVGLGDFASNVAPPPAKPFQRLIDLIGHMTLSDFTRF
+                     PNLKEAISWPLGEPSLAFFDLSSTRVHRNDDIRRDQIATLAMRSCKITNDLEDSFVGLH
+                     RMIVTEAILRGIDLCLLPGFDLMYEVAHVQCVRLLQAAKEDISNAVVPNSALIALMEES
+                     LMLRSSLPSMMGRNNWIPVVPPIPDVEMDSEEESDDDGFVEVD"
+     gene            complement(915..1652)
+                     /gene="NP"
+     CDS             complement(915..1652)
+                     /gene="NP"
+                     /codon_start=1
+                     /product="nucleocapsid"
+                     /protein_id="AYA44547.1"
+                     /translation="MDNYQELAIQFAAQAVDRNEIEQWVREFAYQGFDARRVIELLKQY
+                     GGADWEKDAKKMIVLALTRGNKPRRMMMKMSKEGKATVEALINKYKLKEGNPSRDELTL
+                     SRVAAALAGWTCQALVVLSEWLPVTGTTMDGLSPAYPRHMMHPSFAGMVDPSLPEDYLR
+                     AILDAHSLYLLQFSRVINPNLRGRTKEEVAATFTQPMNAAVNSNFISHEKRREFLKAFG
+                     LVDSNGKPSAAVMAAAQAYKTAA"
+ORIGIN
+        1 acacaaagac cccctagtgc ttatcaagta tatcatggat tactttcctg tgatatctgt
+       61 tgatttgcag agtggtcgtc gtgttgtgtc agtggagtac attagaggag atggtcctcc
+      121 caggatacct tattctatgg ttgggccctg ttgtgtcttt ctcatgcacc atcgtcctag
+      181 tcacgaggtt cgcttgcgat tctctgattt ctataatgtc ggagaattcc cataccgagt
+      241 cggacttgga gactttgcat caaacgttgc acctccacca gcaaagcctt ttcagagact
+      301 tattgatctg ataggccata tgactcttag tgatttcaca aggttcccca atctgaaaga
+      361 agccatatcc tggcctcttg gagaaccctc actggctttc tttgacctaa gctctactag
+      421 agtgcacagg aatgatgaca tcaggaggga tcagattgcc actctagcaa tgaggagctg
+      481 caagatcacc aatgatctag aggactcctt tgttggctta cacaggatga tagtgaccga
+      541 ggccatcctc agagggattg acctgtgcct gttgccaggc tttgatctca tgtatgaggt
+      601 tgctcatgta cagtgtgtta ggctcctgca agcagcaaaa gaggacattt ctaatgctgt
+      661 agttccaaac tcagccctca ttgctcttat ggaggagagc ctgatgctgc gctcatcact
+      721 tcctagcatg atggggagaa acaactggat tccagttgtc cctccaatcc cagatgttga
+      781 gatggattca gaggaagaga gtgatgatga tgggtttgtt gaggttgatt agaggttaag
+      841 gctgccccac cccccacccc ccgatcccga ccgtaacccc aactccccct tcccccaacc
+      901 ccctgggcag ccacttaggc tgctgtcttg taagcctggg cagctgccat gacagcagct
+      961 gacggcttcc cattagaatc cacaagccca aaagctttca agaattctct cctcttctca
+     1021 tggctaataa agttgctatt cactgctgca ttcattggct gcgtgaacgt tgcagcaacc
+     1081 tcctcctttg ttctacctcg gaggtttggg ttgatgaccc gggagaactg cagcaggtac
+     1141 agagagtgag catctaatat tgcccttaga tagtcttctg gcagagaagg gtccaccatg
+     1201 ccagcaaagc tagggtgcat catatgcctt gggtatgcag gggataggcc gtccatggta
+     1261 gtcccagtga caggaagcca ctcactcaag acgactaaag cctggcatgt ccagccagcc
+     1321 agggcggcag caactcgtga tagagtcaac tcatcccggg aaggattccc ttcctttagc
+     1381 ttatacttgt tgatgagagc ctccacagtt gctttgcctt ccttcgacat tttcatcatc
+     1441 atcctccggg gcttgttgcc acgagttaga gccagaacaa tcattttctt ggcatccttc
+     1501 tcccagtcag ccccaccata ctgcttcaag agttcaataa ctctacgggc atcaaaccct
+     1561 tgataagcaa actctcggac ccactgttca atctcattgc ggtccactgc ttgagcagca
+     1621 aactggatcg caagctcttg atagttgtcc attattgtaa tagtgtttgt atctctaggg
+     1681 agctttgtgt
+//

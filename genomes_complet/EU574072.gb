@@ -1,0 +1,98 @@
+LOCUS       EU574072                1690 bp    RNA     linear   VRL 29-OCT-2008
+DEFINITION  Rift Valley fever virus strain 2007001564 segment S, complete
+            sequence.
+ACCESSION   EU574072
+VERSION     EU574072.1
+KEYWORDS    .
+SOURCE      Rift Valley fever virus
+  ORGANISM  Rift Valley fever virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Ellioviricetes; Bunyavirales; Phenuiviridae;
+            Phlebovirus; Phlebovirus riftense.
+REFERENCE   1  (bases 1 to 1690)
+  AUTHORS   Bird,B.H., Githinji,J.W., Macharia,J.M., Kasiiti,J.L.,
+            Muriithi,R.M., Gacheru,S.G., Musaa,J.O., Towner,J.S., Reeder,S.A.,
+            Oliver,J.B., Stevens,T.L., Erickson,B.R., Morgan,L.T.,
+            Khristova,M.L., Hartman,A.L., Comer,J.A., Rollin,P.E., Ksiazek,T.G.
+            and Nichol,S.T.
+  TITLE     Multiple virus lineages sharing recent common ancestry were
+            associated with a Large Rift Valley fever outbreak among livestock
+            in Kenya during 2006-2007
+  JOURNAL   J. Virol. 82 (22), 11152-11166 (2008)
+   PUBMED   18786992
+REFERENCE   2  (bases 1 to 1690)
+  AUTHORS   Bird,B.H., Githinji,J.W., Macharia,J.M., Ksiazek,T.G. and
+            Nichol,S.T.
+  TITLE     Rift Valley fever virus diagnostics during the 2006-2007 Kenyan
+            outbreak and genomic analyses of 31 complete segment genomes reveal
+            insights into RVF virus outbreak dynamics, ecology, genomic
+            diversity and recent evolutionary history
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1690)
+  AUTHORS   Bird,B.H., Githinji,J.W., Macharia,J.M., Ksiazek,T.G. and
+            Nichol,S.T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-MAR-2008) Special Pathogens Branch (CCID/DVRD),
+            Centers for Disease Control and Prevention, 1600 Clifton Rd,
+            Atlanta, GA 30333, USA
+FEATURES             Location/Qualifiers
+     source          1..1690
+                     /organism="Rift Valley fever virus"
+                     /mol_type="genomic RNA"
+                     /strain="2007001564"
+                     /host="bovine"
+                     /db_xref="taxon:11588"
+                     /segment="S"
+                     /geo_loc_name="Kenya: Muranga district"
+                     /collection_date="29-Jan-2007"
+     primer_bind     1..22
+     CDS             35..832
+                     /codon_start=1
+                     /product="nonstructural protein"
+                     /protein_id="ACE78426.1"
+                     /translation="MDYFPVISVDLQSGRRVVSVEYIKGDGPPRIPYSMVGPCCVFLMH
+                     HRPSHEVRLRFSDFYNVGEFPYRVGLGDFASNVAPPPAKPFQRLIDLIGHMTLSDFTRF
+                     PNLKEAISWPLGEPSLAFFDLSSTRVHRNDDIRRDQIATLAMRSCKITNDLEDSFVGLH
+                     RMIVTEAILRGIDLCLLPGFDLVYEVAHVQCVRLLQAAKEDISNAVVPNSALIALMEES
+                     LMLRSSLPSMMGRNNWIPVVPPIPDVEMESGEESDDDGFVEVD"
+     CDS             complement(915..1652)
+                     /codon_start=1
+                     /product="nucleocapsid protein"
+                     /protein_id="ACE78427.1"
+                     /translation="MDNYQELAIQFAAQAVDRNEIEQWVREFAYQGFDARRVIELLKQY
+                     GGADWEKDAKKMIVLALTRGNKPRRMMMKMSKEGKATVEALINKYKLKEGNPSRDELTL
+                     SRVAAALAGWTCQALVVLSEWLPVTGTTMDGLSPAYPRHMMHPSFAGMVDPSLPEDYLR
+                     AILDAHSLYLLQFSRVINPNLRGRTKEEIAATFTQPMNAAVNSNFISHEKRREFLKAFG
+                     LVDSNGKPSAAVMAAAQAYKTAA"
+     primer_bind     complement(1671..1690)
+ORIGIN
+        1 acacaaagac cccctagtgc ttatcaagta tatcatggat tactttcctg tgatatctgt
+       61 tgatttgcag agtggtcgtc gtgttgtgtc agtggagtac attaaaggtg atggtcctcc
+      121 caggatacct tattctatgg ttgggccctg ttgtgtcttt ctcatgcacc atcgtcctag
+      181 tcacgaggtt cgcttgcgat tctctgattt ctacaatgtc ggagaattcc cataccgagt
+      241 cggacttgga gactttgcat caaacgttgc acctccacca gcaaagcctt ttcagagact
+      301 tattgatcta ataggccata tgactcttag tgatttcaca aggttcccca atctaaaaga
+      361 agccatatcc tggcctcttg gagaaccctc actggctttc tttgacctaa gctctactag
+      421 agtgcacagg aatgacgaca ttaggaggga tcagattgct actctagcaa tgaggagctg
+      481 caagattacc aatgatctag aggactcctt tgttggctta cacaggatga tagtgaccga
+      541 ggctatcctc agagggattg acctgtgcct gttgccaggc tttgacctcg tgtatgaggt
+      601 tgctcacgtg cagtgtgttc ggctcctgca ggcagcaaaa gaggacattt ctaatgctgt
+      661 agttccaaat tcagccctca ttgctcttat ggaggagagc ctgatgctgc gctcatcact
+      721 tcctagcatg atggggagaa acaactggat cccagttgtt cctccaatcc cagatgttga
+      781 gatggaatca ggggaagaga gtgatgatga tggatttgtt gaggttgatt agaggttaag
+      841 gctgccccac cccccacccc ccaatcccga ccgtaacccc aacccccatt ttcccaaccc
+      901 ccctgggcag tcacttaggc tgctgtcttg taggcctgag cagctgccat gacagcagct
+      961 gacggcttcc cattagaatc cacaagccca aaagctttca agaattctct cctcttctca
+     1021 tggctaataa agttgctatt cactgctgca ttcattggct gcgtgaacgt tgcagcgatc
+     1081 tcctcctttg ttctacctcg gaggtttggg ttgatgaccc gggagaactg cagcagatac
+     1141 agagagtgag catctaatat tgcccttaga tagtcttctg gcagagaagg gtccaccatg
+     1201 ccagcaaagc tgggatgcat catatgcctt gggtatgcag gggatagacc gtccatggtt
+     1261 gtcccagtga caggaagcca ctcactcaag acgaccaaag cctggcatgt ccagccagcc
+     1321 agggcagcag caactcgtga tagagtcagc tcatcccggg aaggattccc ctcctttagc
+     1381 ttgtacttgt tgatgagagc ctctacagtt gctttgcctt ctttcgacat tttcatcatc
+     1441 atcctccggg gcttgttgcc acgagtcaga gccagaacaa tcattttctt ggcatccttc
+     1501 tcccagtcag ccccaccata ctgctttaag agttcgataa ccctacgggc atcaaaccct
+     1561 tgataagcaa actctcggac ccactgttca atctcattgc ggtccactgc ttgagcagca
+     1621 aactggatcg caagctcttg atagttgtcc attattgtaa tagtgtttgt atctctaggg
+     1681 agctttgtgt
+//

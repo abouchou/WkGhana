@@ -1,0 +1,87 @@
+LOCUS       DQ380150                1689 bp    RNA     linear   VRL 31-JAN-2007
+DEFINITION  Rift Valley fever virus strain T1 segment S, complete sequence.
+ACCESSION   DQ380150
+VERSION     DQ380150.1
+KEYWORDS    .
+SOURCE      Rift Valley fever virus
+  ORGANISM  Rift Valley fever virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Ellioviricetes; Bunyavirales; Phenuiviridae;
+            Phlebovirus; Phlebovirus riftense.
+REFERENCE   1  (bases 1 to 1689)
+  AUTHORS   Bird,B.H., Khristova,M.L. and Nichol,S.T.
+  TITLE     Rift Valley fever virus genomics
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1689)
+  AUTHORS   Bird,B.H., Khristova,M.L. and Nichol,S.T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JAN-2006) Special Pathogens Branch, Centers for
+            Disease Control and Prevention, 1600 Clifton Road, Atlanta, GA
+            30333, USA
+FEATURES             Location/Qualifiers
+     source          1..1689
+                     /organism="Rift Valley fever virus"
+                     /mol_type="genomic RNA"
+                     /strain="T1"
+                     /isolation_source="mosquito which fed on a ZH-501 infected
+                     hamster"
+                     /host="Culex pipiens"
+                     /db_xref="taxon:11588"
+                     /segment="S"
+                     /geo_loc_name="Egypt"
+     primer_bind     1..22
+     gene            35..661
+                     /gene="NSs"
+     CDS             35..661
+                     /gene="NSs"
+                     /codon_start=1
+                     /product="truncated non-structural protein"
+                     /protein_id="ABD38730.1"
+                     /translation="MDYFPVISVDLQSGRRVVSVEYFRGDGPPRIPYSMVVPCCVFLMH
+                     HRPSHEVRLRFSDFYNVGEFPYRVGLGDFASNVAPPPAKPFQRLIDLIGHMTLSDFTRF
+                     PNLKEAISWPLGEPSLAFFDLSSTRVHRNDDIRRDQIATLAMRSCKITNDLEDSFVGLH
+                     RMIATEAILRGIDLCLLPGFDLMYEVAHVQCVRLLQAAKRTFLML"
+     gene            complement(914..1651)
+                     /gene="NP"
+     CDS             complement(914..1651)
+                     /gene="NP"
+                     /codon_start=1
+                     /product="nucleocapsid"
+                     /protein_id="ABD38731.1"
+                     /translation="MDNYQELAIQFAAQAVDRNEIEQWVREFAYQGFDARRVIELLKQY
+                     GGADWEKDAKKMIVLALTRGNKPRRMMMKMSKEGKATVEALINKYKLKEGNPSRDELTL
+                     SRVAAALAGWTCQALVVLSEWLPVTGTTMDGLSPAYPRHMMHPSFAGMVDPSLPGDYLR
+                     AILDAHSLYLLQFSRVINPNLRGRTKEEVAATFTQPMNAAVNSNFISHEKRREFLKAFG
+                     LVDSNGKPSAAVMAAAQAYKTAA"
+     primer_bind     complement(1670..1689)
+ORIGIN
+        1 acacaaagac cccctagtgc ttatcaagta tatcatggat tactttcctg tgatatctgt
+       61 tgatttgcag agtggtcgtc gtgttgtgtc agtggagtac tttagaggag atggtcctcc
+      121 caggatacct tattctatgg ttgtgccctg ttgtgtcttt ctcatgcacc atcgtcctag
+      181 tcacgaggtt cgcttgcgat tctctgattt ctacaatgtc ggagaattcc cataccgagt
+      241 cggacttgga gactttgcat caaacgttgc acctccacca gcgaagcctt ttcagagact
+      301 tattgatcta ataggccata tgactcttag tgatttcaca aggttcccca atctgaaaga
+      361 agccatatcc tggcctcttg gagaaccctc actggctttc tttgacctaa gctctactag
+      421 agtgcatagg aatgatgaca ttagaaggga tcagattgcc actctagcaa tgaggagttg
+      481 caagatcacc aatgatctag aggactcctt tgttggctta cacaggatga tagcgactga
+      541 ggccatcctc agagggattg acctgtgcct gttgccaggc tttgatctca tgtatgaggt
+      601 tgctcacgta cagtgcgttc ggcttctgca agcagcaaag aggacatttc taatgctgta
+      661 gttccaaact cagccctcat tgttcttatg gaggagagcc tgatgctgcg ctcatcactt
+      721 cccagcatga tggggagaaa caactggatt ccagttattc ctccaatccc agatgttgag
+      781 atggaatcag aggaggagag tgatgatgat ggatttgttg aggttgatta gaggttaagg
+      841 ctgccccacc ccccaccccc caatcccgac cgtaacccca actccccttc cccccaaccc
+      901 cctgggcagc cacttaggct gctgtcttgt aagcctgagc ggctgccatg acagcagctg
+      961 acggcttccc attagaatcc acaagtccaa aggctttcaa gaattctctc ctcttctcat
+     1021 ggcttataaa gttgctattc actgctgcat tcattggctg cgtgaacgtt gcagcaacct
+     1081 cctcttttgt tctacctcgg aggtttgggt tgatgacccg ggagaactgc agcagataca
+     1141 gagagtgagc atctaatatt gcccttagat agtctcctgg tagagaagga tccaccatgc
+     1201 cagcaaagct ggggtgcatc atatgccttg ggtatgcagg ggataggccg tccatggtag
+     1261 tcccagtgac aggaagccac tcactcaaga cgaccaaagc ctggcatgtc cagccagcca
+     1321 gggcggcagc aactcgtgat agagtcaact catcccggga aggattccct tcctttagct
+     1381 tatacttgtt gatgagagcc tccacagttg ctttgccttc tttcgacatt ttcatcatca
+     1441 tcctcctggg cttgttgcca cgagttagag ccagaacaat cattttcttg gcatccttct
+     1501 cccagtcagc cccaccatac tgctttaaga gttcgataac tctacgggca tcaaaccctt
+     1561 gataagcaaa ctctcggacc cactgttcaa tctcattgcg gtccactgct tgagcagcaa
+     1621 actggatcgc aagctcttga tagttgtcca ttattgtaat agtgtttgta tctctaggga
+     1681 gctttgtgt
+//

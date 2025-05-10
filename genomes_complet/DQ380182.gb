@@ -1,0 +1,75 @@
+LOCUS       DQ380182                1141 bp    RNA     linear   VRL 31-JAN-2007
+DEFINITION  Rift Valley fever virus clone 13 segment S, complete sequence.
+ACCESSION   DQ380182
+VERSION     DQ380182.1
+KEYWORDS    .
+SOURCE      Rift Valley fever virus
+  ORGANISM  Rift Valley fever virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Ellioviricetes; Bunyavirales; Phenuiviridae;
+            Phlebovirus; Phlebovirus riftense.
+REFERENCE   1  (bases 1 to 1141)
+  AUTHORS   Bird,B.H., Khristova,M.L. and Nichol,S.T.
+  TITLE     Rift Valley fever virus genomics
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1141)
+  AUTHORS   Bird,B.H., Khristova,M.L. and Nichol,S.T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JAN-2006) Special Pathogens Branch, Centers for
+            Disease Control and Prevention, 1600 Clifton Road, Atlanta, GA
+            30333, USA
+FEATURES             Location/Qualifiers
+     source          1..1141
+                     /organism="Rift Valley fever virus"
+                     /mol_type="genomic RNA"
+                     /isolation_source="plaque pick of RVFV 74HB59"
+                     /db_xref="taxon:11588"
+                     /segment="S"
+                     /clone="13"
+                     /geo_loc_name="Central African Republic"
+                     /collection_date="1974"
+     primer_bind     1..22
+     gene            35..283
+                     /gene="NSs"
+     CDS             35..283
+                     /gene="NSs"
+                     /codon_start=1
+                     /product="non-structural protein"
+                     /protein_id="ABD38794.1"
+                     /translation="MDYFPVISVDLQSGRQAAKEDISNAVVPNSALIALMEESLMLRSS
+                     LPSMMGRNNWIPVVPPIPDVEMESEEESDDDGFVEVD"
+     gene            complement(366..1103)
+                     /gene="NP"
+     CDS             complement(366..1103)
+                     /gene="NP"
+                     /codon_start=1
+                     /product="nucleocapsid"
+                     /protein_id="ABD38795.1"
+                     /translation="MDNYQELAIQFAAQAVDRNEIEQWVREFAYQGFDARRVIELLKQY
+                     GGADWEKDAKKMIVLALTRGNKPRRMMMKMSKEGKATVEALINKYKLKEGNPSRDELTL
+                     SRVAAALAGWTCQALVVLSEWLPVTGTTMDGLSPAYPRHMMHPSFAGMVDPSLPEDYLR
+                     AILDAHSLYLLQFSRVINPNLRGRTKEEVAATFTQPMNAAVNSNFISHEKRREFLKAFG
+                     LVDSNGKPSAAVMAAAQAYKTAA"
+     primer_bind     complement(1121..1141)
+ORIGIN
+        1 acacaaagac cccctagtgc ttatcaagta tatcatggat tactttcctg tgatatctgt
+       61 tgatttgcag agtggtcgtc aggcagcaaa agaggacatt tctaatgctg tagttccaaa
+      121 ctcagccctc attgctctta tggaggagag cctgatgctg cgctcatcac ttcctagcat
+      181 gatggggaga aacaactgga ttccagttgt tcctccaatc ccagatgttg agatggaatc
+      241 agaggaagag agtgatgatg atggatttgt tgaagttgat tagaggttaa ggctgcccca
+      301 ccccccaccc tccaatcccg accgtaaccc caacccccct atcccccaac cccctgggca
+      361 gccacttagg ctgctgtctt gtaagcctga gcagctgcca tgacagcagc tgacggcttc
+      421 ccattagaat ccacaagccc aaaagctttc aagaattctc tcctcttctc atggcttata
+      481 aagttgctat tcactgctgc attcattggc tgcgtgaatg ttgcagcaac ctcctccttt
+      541 gttctgcctc ggaggtttgg gttgatgacc cgggagaact gcagcagata cagagagtga
+      601 gcatctaata ttgcccttag atagtcttct ggtagagaag ggtccaccat gccagcaaag
+      661 ctggggtgca tcatatgcct tgggtatgca ggggataggc catccatggt agtcccagtg
+      721 acaggaagcc actcactcaa gacgaccaga gcctggcatg tccagccagc cagggcggca
+      781 gcaactcgtg atagagtcaa ctcatcccgg gaaggatttc cttcctttag cttatacttg
+      841 ttgatgagag cctctacagt tgctttgcct tctttcgaca ttttcatcat catcctccgg
+      901 ggcttgttgc cacgagttag agccagaaca atcattttct tggcatcctt ctcccagtca
+      961 gccccaccat actgctttaa gagttcgata accctacggg catcaaaccc ttgataagca
+     1021 aactctcgga cccactgttc aatctcattg cggtccactg cttgagcagc aaactggatc
+     1081 gcaagctctt gatagttgtc cattattgta atagtgtttg tatctctagg gagctttgtg
+     1141 t
+//
