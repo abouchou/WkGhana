@@ -1,19 +1,3 @@
----
-title: "Genetic Analysis of Rift Valley Fever Virus (RVFV) in Africa"
-author: "Your Name"
-date: "`r Sys.Date()`"
-output:
-  html_document:
-    toc: true
-    toc_depth: 2
-    theme: united
-    highlight: tango
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
-```
-
 ## Introduction
 
 This report presents a genomic analysis of the Rift Valley Fever Virus (RVFV) using data from African countries. It includes steps for metadata preparation (Bash), GenBank data retrieval (Python/Biopython), data cleaning and analysis (R/tidyverse), and result visualization. The report is reproducible and includes the versions of the tools used.
@@ -123,7 +107,7 @@ The file contains 1435 unique sequences, with 833 complete and 603 partial seque
 
 ### Scripts and Results
 
-#### Filtering Complete L Segment Sequences
+#### Filtering Segment Sequences
 
 A Bash script was used to filter complete genomes sequences:
 
@@ -215,8 +199,10 @@ Required:
 if __name__ == "__main__":
     main()
 ```
-
-
+Run : 
+```bash
+python Scripts/download_genbank_records.py -acc newcomplete.tsv -out genomes_complet
+```
 
 #### Downloading and Analyzing FASTA Files
 
@@ -269,6 +255,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
+Run :
+```bash
+python Scripts/get_GenBank_genomes.py -acc newcompleteL.tsv -out L_fasta
 ```
 
 A Python script using Biopython was used to analyze the L segment sequences:
@@ -405,14 +395,181 @@ cat("\n#### Isolates by Year\n")
 print(isolates_by_year)
 cat("\n#### Segment Distribution by Country\n")
 print(segments_distribution_by_country)
+
+
+
+# Display the results (static output provided)
+cat("### Results\n")
+cat("#### Summary by Country, Year, and Segment\n")
+cat("# A tibble: 236 × 4\n")
+cat("   IsolationCountry CollectionYear Segment Count\n")
+cat("   <chr>                     <dbl> <chr>   <int>\n")
+cat(" 1 Angola                     1985 M           1\n")
+cat(" 2 Angola                     1985 S           1\n")
+cat(" 3 Angola                     2016 L           1\n")
+cat(" 4 Angola                     2016 M           1\n")
+cat(" 5 Angola                     2016 S           1\n")
+cat(" 6 Burkina Faso               1983 L           1\n")
+cat(" 7 Burkina Faso               1983 M           1\n")
+cat(" 8 Burkina Faso               1983 S           2\n")
+cat(" 9 Burundi                    2022 L           5\n")
+cat("10 Burundi                    2022 M           7\n")
+cat("# ℹ 226 more rows\n")
+cat("# ℹ Use `print(n = ...)` to see more rows\n")
+
+cat("\n#### Host Summary\n")
+cat("# A tibble: 15 × 2\n")
+cat("   HostCommonName          Count\n")
+cat("   <chr>                   <int>\n")
+cat(" 1 Human                     733\n")
+cat(" 2 Cow                       236\n")
+cat(" 3 NA                        133\n")
+cat(" 4 Mosquito                   82\n")
+cat(" 5 Sheep                      61\n")
+cat(" 6 Goat                       14\n")
+cat(" 7 Buffalo                     9\n")
+cat(" 8 Bat                         7\n")
+cat(" 9 Null                        6\n")
+cat("10 Cattle                      5\n")
+cat("11 Camel                       3\n")
+cat("12 Mouse                       3\n")
+cat("13 Tick                        3\n")
+cat("14 Northern House Mosquito     2\n")
+cat("15 Lab host                    1\n")
+
+cat("\n#### Filtered Specific Data (Kenya/Tanzania, >= 2007, S/L)\n")
+cat("# A tibble: 134 × 16\n")
+cat("   Species   GenomeStatus Strain Segment `GenBank Accessions`  Size `GC Content` `Contig N50`\n")
+cat("   <chr>     <chr>        <chr>  <chr>   <chr>                <dbl>        <dbl>        <dbl>\n")
+cat(" 1 Phlebovi… Complete     20070… S       EU574057              1689         49.1         1689\n")
+cat(" 2 Phlebovi… Complete     20070… S       EU574058              1691         48.8         1691\n")
+cat(" 3 Phlebovi… Complete     20070… S       EU574059              1691         49.0         1691\n")
+cat(" 4 Phlebovi… Complete     20070… S       EU574060              1691         48.9         1691\n")
+cat(" 5 Phlebovi… Complete     20070… S       EU574061              1691         48.8         1691\n")
+cat(" 6 Phlebovi… Complete     20070… S       EU574062              1691         48.9         1691\n")
+cat(" 7 Phlebovi… Complete     20070… S       EU574063              1691         48.9         1691\n")
+cat(" 8 Phlebovi… Complete     20070… S       EU574064              1691         48.9         1691\n")
+cat(" 9 Phlebovi… Complete     20070… S       EU574065              1691         48.9         1691\n")
+cat("10 Phlebovi… Complete     20070… S       EU574066              1691         48.8         1691\n")
+cat("# ℹ 124 more rows\n")
+cat("# ℹ 8 more variables: CollectionDate <chr>, CollectionYear <dbl>, IsolationCountry <chr>,\n")
+cat("#   GeographicGroup <chr>, HostName <chr>, HostCommonName <chr>, HostGroup <chr>,\n")
+cat("#   Region <chr>\n")
+cat("# ℹ Use `print(n = ...)` to see more rows\n")
+
+cat("\n#### Summary After Renaming\n")
+cat("# A tibble: 236 × 4\n")
+cat("   IsolationCountry  Year Segment Count\n")
+cat("   <chr>            <dbl> <chr>   <int>\n")
+cat(" 1 Angola            1985 M           1\n")
+cat(" 2 Angola            1985 S           1\n")
+cat(" 3 Angola            2016 L           1\n")
+cat(" 4 Angola            2016 M           1\n")
+cat(" 5 Angola            2016 S           1\n")
+cat(" 6 Burkina Faso      1983 L           1\n")
+cat(" 7 Burkina Faso      1983 M           1\n")
+cat(" 8 Burkina Faso      1983 S           2\n")
+cat(" 9 Burundi           2022 L           5\n")
+cat("10 Burundi           2022 M           7\n")
+cat("# ℹ 226 more rows\n")
+cat("# ℹ Use `print(n = ...)` to see more rows\n")
+
+cat("\n#### Complete Sequences by Country\n")
+cat("# A tibble: 18 × 2\n")
+cat("   IsolationCountry         Count\n")
+cat("   <chr>                    <int>\n")
+cat(" 1 South Africa               390\n")
+cat(" 2 Kenya                      181\n")
+cat(" 3 Madagascar                  38\n")
+cat(" 4 Egypt                       35\n")
+cat(" 5 Zimbabwe                    35\n")
+cat(" 6 Central African Republic    33\n")
+cat(" 7 Uganda                      29\n")
+cat(" 8 Sudan                       22\n")
+cat(" 9 Mauritania                  15\n")
+cat("10 Namibia                     12\n")
+cat("11 Tanzania                    12\n")
+cat("12 Guinea                       7\n")
+cat("13 Senegal                      7\n")
+cat("14 Angola                       4\n")
+cat("15 Burkina Faso                 4\n")
+cat("16 Gabon                        4\n")
+cat("17 Somalia                      1\n")
+cat("18 Zambia                       1\n")
+
+cat("\n#### Top 10 Hosts\n")
+cat("# A tibble: 10 × 2\n")
+cat("   HostCommonName Count\n")
+cat("   <chr>          <int>\n")
+cat(" 1 Human            733\n")
+cat(" 2 Cow              236\n")
+cat(" 3 NA               133\n")
+cat(" 4 Mosquito          82\n")
+cat(" 5 Sheep             61\n")
+cat(" 6 Goat              14\n")
+cat(" 7 Buffalo            9\n")
+cat(" 8 Bat                7\n")
+cat(" 9 Null               6\n")
+cat("10 Cattle             5\n")
+
+cat("\n#### Isolates by Country\n")
+cat("# A tibble: 22 × 2\n")
+cat("   IsolationCountry         Count\n")
+cat("   <chr>                    <int>\n")
+cat(" 1 South Africa               434\n")
+cat(" 2 Kenya                      258\n")
+cat(" 3 Madagascar                 198\n")
+cat(" 4 Uganda                     107\n")
+cat(" 5 Mauritania                  56\n")
+cat(" 6 Zimbabwe                    51\n")
+cat(" 7 Egypt                       48\n")
+cat(" 8 Central African Republic    37\n")
+cat(" 9 Sudan                       23\n")
+cat("10 Namibia                     15\n")
+cat("# ℹ 12 more rows\n")
+cat("# ℹ Use `print(n = ...)` to see more rows\n")
+
+cat("\n#### Isolates by Year\n")
+cat("# A tibble: 52 × 2\n")
+cat("    Year Count\n")
+cat("   <dbl> <int>\n")
+cat(" 1  2010   306\n")
+cat(" 2  2008   206\n")
+cat(" 3  2007   172\n")
+cat(" 4  2018    75\n")
+cat(" 5  1978    36\n")
+cat(" 6  2009    35\n")
+cat(" 7  2011    34\n")
+cat(" 8  1974    32\n")
+cat(" 9  2006    27\n")
+cat("10    NA    27\n")
+cat("# ℹ 42 more rows\n")
+cat("# ℹ Use `print(n = ...)` to see more rows\n")
+
+cat("\n#### Segment Distribution by Country\n")
+cat("# A tibble: 22 × 4\n")
+cat("   IsolationCountry             L     M     S\n")
+cat("   <chr>                    <int> <int> <int>\n")
+cat(" 1 Angola                       1     2     2\n")
+cat(" 2 Burkina Faso                 1     1     2\n")
+cat(" 3 Burundi                      5     7     0\n")
+cat(" 4 Central African Republic    11    14    12\n")
+cat(" 5 Egypt                       12    20    16\n")
+cat(" 6 Gabon                        0     0     4\n")
+cat(" 7 Guinea                       2     3     3\n")
+cat(" 8 Kenya                       73    92    93\n")
+cat(" 9 Madagascar                  61    64    73\n")
+cat("10 Mali                         0     0     2\n")
+cat("# ℹ 12 more rows\n")
+
 ```
 
 #### Interpretation
 
-- **Data Cleaning**: Entries missing the `Segment` field were removed, ensuring data quality for subsequent analyses.
-- **Summary by Country, Year, and Segment**: The data shows varied distribution across countries and years, potentially indicating specific outbreak foci.
-- **Main Hosts**: The top 10 hosts reveal the species most affected by RVFV, crucial for epidemiological studies.
-- **Geographic Distribution**: Isolates by country and segment distribution (S, M, L) highlight the predominance of certain segments in specific countries, possibly reflecting viral strain differences.
+- **Data Cleaning**: Entries missing the `Segment` field were removed, ensuring data quality for subsequent analyses. The results show a total of 236 unique combinations of country, year, and segment.
+- **Summary by Country, Year, and Segment**: The data reveals a varied distribution, with notable counts in countries like Burundi (2022) and Angola (1985, 2016), indicating specific outbreak events.
+- **Main Hosts**: Humans are the most affected host (733 sequences), followed by cows (236) and mosquitoes (82), highlighting key transmission vectors and affected species.
+- **Geographic Distribution**: South Africa leads with 434 isolates, followed by Kenya (258), suggesting these regions are hotspots. The segment distribution shows Kenya and Madagascar with balanced L, M, and S counts, while others like Gabon have only S segments.
 
 ## Task 5: Data Visualization
 
@@ -464,11 +621,28 @@ print(barplot_by_year)
 ggsave("barplot_isolates_by_year.png", plot = boxplot_year_by_segment, width = 8, height = 5)
 ```
 
+### Included Visualizations
+
+The following images represent the generated plots:
+
+- **Boxplot of Collection Dates by Country**:
+  ![Boxplot of Collection Dates by Country](images/boxplot_date_by_country.png)
+
+- **Boxplot of Collection Years by Segment**:
+  ![Boxplot of Collection Years by Segment](images/boxplot_year_by_segment.png)
+
+- **Barplot of Isolates by Country**:
+  ![Barplot of Isolates by Country](images/barplot_isolates_by_country.png)
+
+- **Barplot of Isolates by Year**:
+  ![Barplot of Isolates by Year](images/barplot_isolates_by_year.png)
+
+
 #### Interpretation
 
-- **Collection Dates by Country**: The boxplot shows temporal variations in collections by country, potentially indicating specific epidemic periods.
-- **Collection Years by Segment**: The S, M, and L segments have similar temporal distributions, suggesting uniform collection of different segments over time.
-- **Isolates by Country and Year**: The barplots highlight the countries and years with the most isolates, useful for identifying high-risk areas and periods.
+- **Collection Dates by Country**: The boxplot of collection dates by country (shown above) illustrates temporal variations in collections, with some countries showing wider date ranges, potentially indicating prolonged or multiple epidemic periods.
+- **Collection Years by Segment**: The boxplot of collection years by segment (shown above) reveals that the S, M, and L segments have similar temporal distributions, suggesting uniform collection of different segments over time. The median years for each segment cluster around the early 2000s, with some outliers extending to recent years.
+- **Isolates by Country and Year**: The barplots of isolates by country and year (shown above) highlight South Africa and Kenya as major hotspots with 434 and 258 isolates, respectively. The isolates by year plot shows significant peaks around 2007-2010, with 2010 having the highest count (306 isolates), suggesting major outbreak events during this period.
 
 ## Conclusion
 
